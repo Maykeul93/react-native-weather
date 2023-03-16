@@ -1,9 +1,18 @@
 import { StyleSheet } from "react-native";
 
 export const style = StyleSheet.create({
-    txt: {
+    header: {
+        flexDirection: "row",
+    },
+    header_texts: {
+        flex: 1,
+        alignItems: "center",
+        marginRight: 30,
+    },
+    backButton: {
+        width: 30,
+    },
+    subtitle: {
         fontSize: 20,
-        fontWeight: "bold",
-        color: "#000000",
     },
 });
