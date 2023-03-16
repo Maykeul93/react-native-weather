@@ -8,7 +8,7 @@ export function ForecastListItem({image, day, date, temperature}){
             <Image source={image} style={style.image} />
             <Txt style={style.day} >{day}</Txt>
             <Txt style={style.date}>{date}</Txt>
-            <Txt>{temperature}°</Txt>
+            <Txt style={style.temperature}>{temperature}°</Txt>
         </View>
     )
 }
