@@ -6,7 +6,7 @@ import AlataRegular from "./assets/fonts/Alata-Regular.ttf";
 import { useFonts } from "expo-font";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { Forecast } from "./pages/Home/Forecast/Forecast";
+import { Forecast } from "./pages/Forecast/Forecast";
 import { Container } from "./components/Container/Container";
 
 const Stack = createNativeStackNavigator();
